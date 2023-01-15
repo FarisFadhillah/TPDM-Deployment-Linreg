@@ -4,9 +4,9 @@
 
 Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Regresi Linier. Adapun model yang digunakan merupakan model untuk memprediksi biaya asuransi berdasarkan:
 
--   `Age` atau usia dengan tipe data integer (bilangan bulat)
--   `Sex` atau jenis kelamin yakni `Male` atau `Female`
--   `Smoker` atau status perokok yakni `Yes` atau `No`
+- `Age` atau usia dengan tipe data integer (bilangan bulat)
+- `Sex` atau jenis kelamin yakni `Male` atau `Female`
+- `Smoker` atau status perokok yakni `Yes` atau `No`
 
 #
 
@@ -27,12 +27,12 @@ Akan diubah menjadi:\
 
 ## Folder, file, dan kegunaannya
 
--   templates/
-    -   index.html --> Berisi template website
--   app.py --> Berisi konfigurasi route untuk API
--   model.pkl --> Model Regresi Linier yang sudah di-training
--   request.py --> Berisi percobaan pemanggilan API dengan payload data JSON
--   requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Regresi Linier
+- templates/
+  - index.html --> Berisi template website
+- app.py --> Berisi konfigurasi route untuk API
+- model.pkl --> Model Regresi Linier yang sudah di-training
+- request.py --> Berisi percobaan pemanggilan API dengan payload data JSON
+- requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Regresi Linier
 
 #
 
